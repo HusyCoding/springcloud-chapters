@@ -5,10 +5,8 @@
     <option name="originalFiles">
       <list>
         <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/eureka-server/pom.xml" />
-        <option value="$PROJECT_DIR$/eureka-client-producer/pom.xml" />
-        <option value="$PROJECT_DIR$/eureka-cluster-client-producer/pom.xml" />
-        <option value="$PROJECT_DIR$/eureka-cluster-server/pom.xml" />
+        <option value="$PROJECT_DIR$/eureka-client-feign/pom.xml" />
+        <option value="$PROJECT_DIR$/eureka-client-hystrix/pom.xml" />
       </list>
     </option>
     <option name="ignoredFiles">
