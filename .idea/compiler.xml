@@ -7,7 +7,9 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="eureka-client-feign" />
-        <module name="eureka-client-hystrix" />
+        <module name="eureka-client-hystrix-feign" />
+        <module name="eureka-client-hystrix-ribbon" />
+        <module name="eureka-client-monitor" />
         <module name="eureka-client-producer" />
         <module name="eureka-client-ribbon" />
         <module name="eureka-cluster-client-producer" />
@@ -16,9 +18,16 @@
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
-      <module name="client-producer" target="1.8" />
-      <module name="eureka-client-producer-cluster-ribbon" target="1.8" />
-      <module name="springcloud-demo" target="1.8" />
+      <module name="eureka-client-feign" target="1.8" />
+      <module name="eureka-client-hystrix-feign" target="1.8" />
+      <module name="eureka-client-hystrix-ribbon" target="1.8" />
+      <module name="eureka-client-monitor" target="1.8" />
+      <module name="eureka-client-producer" target="1.8" />
+      <module name="eureka-client-ribbon" target="1.8" />
+      <module name="eureka-cluster-client-producer" target="1.8" />
+      <module name="eureka-cluster-server" target="1.8" />
+      <module name="eureka-server" target="1.8" />
+      <module name="springcloud-chapters" target="1.8" />
     </bytecodeTargetLevel>
   </component>
 </project>

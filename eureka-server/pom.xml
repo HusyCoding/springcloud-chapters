@@ -10,7 +10,7 @@
     <groupId>com.husy</groupId>
     <artifactId>eureka-server</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <name>springcloud-demo</name>
+    <name>eureka-server</name>
     <description>注册中心</description>
 
 

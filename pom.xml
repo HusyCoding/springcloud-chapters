@@ -35,7 +35,11 @@
         <!--服务消费者 feign-->
         <module>eureka-client-feign</module>
         <!--熔断器消费端 hystrix-->
-        <module>eureka-client-hystrix</module>
+        <module>eureka-client-hystrix-feign</module>
+        <!--熔断器消费端 hystrix-->
+        <module>eureka-client-hystrix-ribbon</module>
+        <!--聚合监控 Turbine-->
+        <module>eureka-client-monitor</module>
     </modules>
 
     <dependencies>

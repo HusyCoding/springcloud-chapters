@@ -19,6 +19,6 @@ public class RibbonServiceImpl implements RibbonService {
 	@Override
 	@GetMapping("/hi")
 	public String hi(@RequestParam(required = false, defaultValue = "husy") String name) {
-		return restTemplate.getForObject("http://eureka-client/hi?name=" + name, String.class);
+		return restTemplate.getForObject("http://eureka-client-producer/hi?name=" + name, String.class);
 	}
 }
