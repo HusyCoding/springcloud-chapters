@@ -38,8 +38,8 @@
         <module>eureka-client-hystrix-feign</module>
         <!--熔断器消费端 hystrix-->
         <module>eureka-client-hystrix-ribbon</module>
-        <!--聚合监控 Turbine-->
-        <module>eureka-client-monitor</module>
+        <!--Turbine 聚合监控-->
+        <module>eureka-client-turbine</module>
     </modules>
 
     <dependencies>

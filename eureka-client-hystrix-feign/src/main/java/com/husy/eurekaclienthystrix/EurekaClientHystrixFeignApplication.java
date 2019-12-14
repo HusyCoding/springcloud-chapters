@@ -21,6 +21,12 @@ public class EurekaClientHystrixFeignApplication {
 		SpringApplication.run(EurekaClientHystrixFeignApplication.class, args);
 	}
 
+	/**
+	 * springboot 版本如果是2.0则需要添加 ServletRegistrationBean
+	 * 因为springboot的默认路径不是 "/hystrix.stream"
+	 * 或者 properties 中添加 management.endpoints.web.xposure.include = hystrix.stream
+	 * @return
+	 */
 	@Bean
 	public ServletRegistrationBean getServlet(){
 		HystrixMetricsStreamServlet streamServlet = new HystrixMetricsStreamServlet();
