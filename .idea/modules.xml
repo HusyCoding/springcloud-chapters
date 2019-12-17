@@ -8,6 +8,7 @@
       <module fileurl="file://$PROJECT_DIR$/eureka-client-producer/eureka-client-producer.iml" filepath="$PROJECT_DIR$/eureka-client-producer/eureka-client-producer.iml" />
       <module fileurl="file://$PROJECT_DIR$/eureka-client-ribbon/eureka-client-ribbon.iml" filepath="$PROJECT_DIR$/eureka-client-ribbon/eureka-client-ribbon.iml" />
       <module fileurl="file://$PROJECT_DIR$/eureka-client-turbine/eureka-client-turbine.iml" filepath="$PROJECT_DIR$/eureka-client-turbine/eureka-client-turbine.iml" />
+      <module fileurl="file://$PROJECT_DIR$/eureka-client-zuul/eureka-client-zuul.iml" filepath="$PROJECT_DIR$/eureka-client-zuul/eureka-client-zuul.iml" />
       <module fileurl="file://$PROJECT_DIR$/eureka-cluster-client-producer/eureka-cluster-client-producer.iml" filepath="$PROJECT_DIR$/eureka-cluster-client-producer/eureka-cluster-client-producer.iml" />
       <module fileurl="file://$PROJECT_DIR$/eureka-cluster-server/eureka-cluster-server.iml" filepath="$PROJECT_DIR$/eureka-cluster-server/eureka-cluster-server.iml" />
       <module fileurl="file://$PROJECT_DIR$/eureka-server/eureka-server.iml" filepath="$PROJECT_DIR$/eureka-server/eureka-server.iml" />

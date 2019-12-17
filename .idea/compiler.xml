@@ -6,15 +6,16 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="eureka-cluster-server" />
-        <module name="eureka-client-hystrix-feign" />
-        <module name="eureka-cluster-client-producer" />
-        <module name="eureka-client-hystrix-ribbon" />
-        <module name="eureka-server" />
         <module name="eureka-client-feign" />
-        <module name="eureka-client-turbine" />
-        <module name="eureka-client-ribbon" />
+        <module name="eureka-client-hystrix-feign" />
+        <module name="eureka-client-hystrix-ribbon" />
         <module name="eureka-client-producer" />
+        <module name="eureka-client-ribbon" />
+        <module name="eureka-client-turbine" />
+        <module name="eureka-client-zuul" />
+        <module name="eureka-cluster-client-producer" />
+        <module name="eureka-cluster-server" />
+        <module name="eureka-server" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
@@ -25,6 +26,7 @@
       <module name="eureka-client-producer" target="1.8" />
       <module name="eureka-client-ribbon" target="1.8" />
       <module name="eureka-client-turbine" target="1.8" />
+      <module name="eureka-client-zuul" target="1.8" />
       <module name="eureka-cluster-client-producer" target="1.8" />
       <module name="eureka-cluster-server" target="1.8" />
       <module name="eureka-server" target="1.8" />
@@ -33,16 +35,16 @@
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
-      <module name="eureka-client-feign" options="-parameters" />
-      <module name="eureka-client-hystrix-feign" options="-parameters" />
-      <module name="eureka-client-hystrix-ribbon" options="-parameters" />
+      <module name="eureka-client-feign" options="" />
+      <module name="eureka-client-hystrix-feign" options="" />
+      <module name="eureka-client-hystrix-ribbon" options="" />
       <module name="eureka-client-monitor" options="-parameters" />
-      <module name="eureka-client-producer" options="-parameters" />
-      <module name="eureka-client-ribbon" options="-parameters" />
-      <module name="eureka-client-turbine" options="-parameters" />
-      <module name="eureka-cluster-client-producer" options="-parameters" />
-      <module name="eureka-cluster-server" options="-parameters" />
-      <module name="eureka-server" options="-parameters" />
+      <module name="eureka-client-producer" options="" />
+      <module name="eureka-client-ribbon" options="" />
+      <module name="eureka-client-turbine" options="" />
+      <module name="eureka-cluster-client-producer" options="" />
+      <module name="eureka-cluster-server" options="" />
+      <module name="eureka-server" options="" />
     </option>
   </component>
 </project>
