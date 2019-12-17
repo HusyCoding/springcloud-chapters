@@ -1,0 +1,20 @@
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:8001/eureka/
+server:
+  port: 8206
+spring:
+  application:
+    name: eureka-client-zuul
+zuul:
+  routes:
+    producer:
+      path: /producer/**
+      serviceId: eureka-client-producer
+    feign:
+      path: /feign/**
+      serviceId: eureka-client-feign
+    ribbon:
+      path: /ribbon/**
+      serviceId: eureka-client-ribbon
