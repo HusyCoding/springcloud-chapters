@@ -41,7 +41,7 @@
         <!--聚合监控 Turbine -->
         <module>eureka-client-turbine</module>
         <!--路由网关 Zuul-->
-        <module>eureka-client-turbine</module>
+        <module>eureka-client-zuul</module>
     </modules>
 
     <dependencies>

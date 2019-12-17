@@ -18,3 +18,4 @@ zuul:
     ribbon:
       path: /ribbon/**
       serviceId: eureka-client-ribbon
+  prefix: /v1
