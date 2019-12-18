@@ -6,7 +6,7 @@ spring:
 #          search-locations: classpath:/share
         git:
           uri: https://github.com/HusyCoding/springcloud-chapters.git
-          search-paths: shareconfig
+          search-paths: eureka-server-config/shareconfig
 #          username:
 #          password:
       label: master
