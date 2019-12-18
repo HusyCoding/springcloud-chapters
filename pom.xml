@@ -42,6 +42,10 @@
         <module>eureka-client-turbine</module>
         <!--路由网关 Zuul-->
         <module>eureka-client-zuul</module>
+        <!--配置中心 Config-->
+        <module>eureka-server-config</module>
+        <!--配置中心 消费端-->
+        <module>eureka-client-config</module>
     </modules>
 
     <dependencies>

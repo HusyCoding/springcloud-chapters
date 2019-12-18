@@ -1,0 +1,21 @@
+spring:
+  cloud:
+    config:
+      server:
+#        native:
+#          search-locations: classpath:/share
+        git:
+          uri: http://
+          search-paths:
+          username:
+          password:
+  profiles:
+    active: native
+  application:
+    name: eureka-server-config
+server:
+  port: 8004
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:8001/eureka

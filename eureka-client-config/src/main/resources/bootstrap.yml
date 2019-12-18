@@ -1,0 +1,20 @@
+spring:
+  rabbitmq:
+    host: localhost
+    username: guest
+    password: guest
+    port: 15672
+  application:
+    name: eureka-client-config
+  cloud:
+    config:
+      fail-fast: true
+      discovery:
+        enabled: true
+        service-id: eureka-server-config
+  profiles:
+    active: dev
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:8001/eureka
