@@ -1,0 +1,3 @@
+server:
+  port: 8005
+word: hello world 2

@@ -5,10 +5,11 @@ spring:
 #        native:
 #          search-locations: classpath:/share
         git:
-          uri: http://
-          search-paths:
-          username:
-          password:
+          uri: https://github.com/HusyCoding/springcloud-chapters.git
+          search-paths: shareconfig
+#          username:
+#          password:
+      label: master
   profiles:
     active: native
   application:
