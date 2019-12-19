@@ -13,13 +13,12 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 @SpringBootApplication
 public class EurekaClientConfigApplication {
+	@Value("${word}")
+	String word;
 
 	public static void main(String[] args) {
 		SpringApplication.run(EurekaClientConfigApplication.class, args);
 	}
-
-	@Value("${word}")
-	String word;
 
 	@RequestMapping("/hi")
 	public  String hi(){
