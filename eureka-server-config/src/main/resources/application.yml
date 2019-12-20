@@ -1,17 +1,17 @@
 spring:
-  profiles:
-    active: native
+#  profiles:
+#    active: native
   cloud:
     config:
       server:
-        native:
-          search-locations: classpath:/share
-#        git:
-#          uri: https://github.com/HusyCoding/springcloud-chapters
-#          search-paths: eureka-server-config/shareconfig
-#          username:
-#          password:
-#          default-label: master
+#        native:
+#          search-locations: classpath:/share
+        git:
+          uri: https://github.com/HusyCoding/springcloud-chapters
+          search-paths: eureka-server-config/shareconfig
+          username:
+          password:
+          default-label: master
   application:
     name: eureka-server-config
 server:
@@ -20,3 +20,4 @@ eureka:
   client:
     service-url:
       defaultZone: http://localhost:8001/eureka
+

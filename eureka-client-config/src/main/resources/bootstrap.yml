@@ -23,7 +23,9 @@ eureka:
       defaultZone: http://localhost:8001/eureka
 management:
   endpoint:
+    bus-refresh:
+      enabled: true
+  endpoints:
     web:
       exposure:
-        #注意：在 bootstrap.yml 文件中的配置值必须为 '*'，如果没有单引号配置不会生效
-        include: '*'
+        include: bus-refresh
