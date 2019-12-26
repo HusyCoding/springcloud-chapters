@@ -12,8 +12,9 @@ spring:
       discovery:
         enabled: true
         service-id: eureka-server-config
+    ## 开启消息跟踪
     bus:
-      refresh:
+      trace:
         enabled: true
   profiles:
     active: dev
@@ -29,3 +30,6 @@ management:
     web:
       exposure:
         include: bus-refresh
+#management:
+#  security:
+#    enabled: false
