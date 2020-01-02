@@ -1,3 +1,4 @@
+---
 spring:
   rabbitmq:
     host: localhost
@@ -18,6 +19,43 @@ spring:
         enabled: true
   profiles:
     active: dev
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:8001/eureka
+management:
+  endpoint:
+    bus-refresh:
+      enabled: true
+  endpoints:
+    web:
+      exposure:
+        include: bus-refresh
+#management:
+#  security:
+#    enabled: false
+
+---
+spring:
+  rabbitmq:
+    host: localhost
+    username: guest
+    password: guest
+    port: 5672
+  application:
+    name: eureka-client-config
+  cloud:
+    config:
+      fail-fast: true
+      discovery:
+        enabled: true
+        service-id: eureka-server-config
+    ## 开启消息跟踪
+    bus:
+      trace:
+        enabled: true
+  profiles:
+    active: resp
 eureka:
   client:
     service-url:

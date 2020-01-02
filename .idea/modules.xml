@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/eureka-client-config/eureka-client-config.iml" filepath="$PROJECT_DIR$/eureka-client-config/eureka-client-config.iml" />
       <module fileurl="file://$PROJECT_DIR$/eureka-client-feign/eureka-client-feign.iml" filepath="$PROJECT_DIR$/eureka-client-feign/eureka-client-feign.iml" />
       <module fileurl="file://$PROJECT_DIR$/eureka-client-hystrix-feign/eureka-client-hystrix-feign.iml" filepath="$PROJECT_DIR$/eureka-client-hystrix-feign/eureka-client-hystrix-feign.iml" />
       <module fileurl="file://$PROJECT_DIR$/eureka-client-hystrix-ribbon/eureka-client-hystrix-ribbon.iml" filepath="$PROJECT_DIR$/eureka-client-hystrix-ribbon/eureka-client-hystrix-ribbon.iml" />
@@ -12,6 +13,7 @@
       <module fileurl="file://$PROJECT_DIR$/eureka-cluster-client-producer/eureka-cluster-client-producer.iml" filepath="$PROJECT_DIR$/eureka-cluster-client-producer/eureka-cluster-client-producer.iml" />
       <module fileurl="file://$PROJECT_DIR$/eureka-cluster-server/eureka-cluster-server.iml" filepath="$PROJECT_DIR$/eureka-cluster-server/eureka-cluster-server.iml" />
       <module fileurl="file://$PROJECT_DIR$/eureka-server/eureka-server.iml" filepath="$PROJECT_DIR$/eureka-server/eureka-server.iml" />
+      <module fileurl="file://$PROJECT_DIR$/eureka-server-config/eureka-server-config.iml" filepath="$PROJECT_DIR$/eureka-server-config/eureka-server-config.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/springcloud-chapters.iml" filepath="$PROJECT_DIR$/.idea/springcloud-chapters.iml" />
     </modules>
   </component>

@@ -2,6 +2,7 @@
 <project version="4">
   <component name="Encoding">
     <file url="file://$PROJECT_DIR$" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/eureka-client-config" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/eureka-client-feign" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/eureka-client-hystrix-feign" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/eureka-client-hystrix-ribbon" charset="UTF-8" />
@@ -12,5 +13,8 @@
     <file url="file://$PROJECT_DIR$/eureka-cluster-client-producer" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/eureka-cluster-server" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/eureka-server" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/eureka-server-config" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/eureka-server-zipkin" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/springboot-security" charset="UTF-8" />
   </component>
 </project>
